@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial , sans-serif ;
+}
+
+
+body {
+    line-height: 1.6;
+}
+
+
+
+
+header {
+    box-shadow: 0 2px 5 x   rgba(0,0,0,0.1);
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    max-width:  1200px;
+    margin: 0 auto;
+}
+
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:#000000;
+}
+
+
+nav {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(lamina.jpg);
+    padding: 2px;
+    max-width: 100cm;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+
+.nav-links a {
+    text-decoration: none;
+    color: #161515;
+    font-weight: bold;
+    
+}
+
+
+#hero {
+    padding-top: 2rem;
+    min-height: 35vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Ropa.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 0 1rem; 
+}
+
+
+#hero h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+.cta-button {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+    cursor: pointer;
+    margin-top: 2rem ;
+}
+
+
+.cta-button:hover{
+    background-color: #fa5a5a;
+}
+
+
+
+
+#ropa {
+    height: 1000px;
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#general h2 {
+    text-align:  center;
+    margin-bottom: 2rem;
+}
+
+.ropa_1 {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    gap: 2rem;
+    margin: 0 auto;
+    text-align:  center;
+}
+
+.ropa_2 {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5 x   rgba(0,0,0,0.1);
+}
+
+.ropa_2 h3 {
+    padding: 1rem;
+    color: #333;
+    text-align:  center;
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.precio {
+    color: #000000;
+    font-weight: bold;
+    padding: 0 auto ;
+}
+
+.descripcion {
+    padding: .5rem 1rem;
+    color: #666;
+}
+
+
+.button {
+    margin: 1rem;
+    padding: .5rem 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.button:hover {
+    background-color:#000000;
+}
